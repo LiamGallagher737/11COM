@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+}
+
+/* Slide 1 */
+
+.s1 {
+    background: lightcoral;
+}
+
+.s1 .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: min-content 1fr;
+    max-width: min(90vw, 1200px);
+    margin: auto;
+}
+
+.s1 h1 {
+    grid-column: span 2;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 5rem;
+}
+
+.s1 p {
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+}
+
+.s1 p:first-child {
+    margin-top: 20%;
+}
+
+.s1 img {
+    margin: auto;
+    height: 500px;
+}
