@@ -11,13 +11,7 @@ body {
     color: white;
 }
 
-/* Slide 1 */
-
-.s1 {
-    background: lightcoral;
-}
-
-.s1 .container {
+.container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: min-content 1fr;
@@ -25,7 +19,7 @@ body {
     margin: auto;
 }
 
-.s1 h1 {
+h2 {
     grid-column: span 2;
     width: 100%;
     text-align: center;
@@ -34,17 +28,114 @@ body {
     margin-bottom: 5rem;
 }
 
-.s1 p {
+.description {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+p {
+    width: 100%;
     font-weight: 600;
     font-size: 1.2rem;
-    padding-bottom: 2rem;
 }
 
-.s1 p:first-child {
-    margin-top: 20%;
-}
-
-.s1 img {
+img {
     margin: auto;
-    height: 500px;
+    height: 400px;
+}
+
+/* Slide 1 */
+
+.s1 {
+    background: lightcoral;
+}
+
+/* Slide 2 */
+
+.s2 {
+    background: lightblue;
+}
+
+/* Slide 3 */
+
+.s3 {
+    background: lightgreen;
+}
+
+.s3 .container {
+    grid-template-columns: 1fr;
+}
+
+.s3 p {
+    text-align: center;
+}
+
+/* Slide 4 */
+
+.s4 {
+    background: lightsalmon;
+}
+
+/* Slide 5 */
+
+.s5 {
+    background: lightpink;
+}
+
+/* Slide 6 */
+
+.s6 {
+    background: lightskyblue;
+}
+
+/* Slide 7 */
+
+.s7 {
+    background: lightsteelblue;
+}
+
+/* Slide 8 */
+
+.s8 {
+    background: lightseagreen;
+}
+
+/* Slide 9 */
+
+.s9 {
+    background: lightcoral;
+}
+
+/* Slide 10 */
+
+.s10 {
+    background: lightgreen;
+}
+
+/* Slide 11 */
+
+.s11 {
+    background: lightpink;
+}
+
+/* Slide 12 */
+
+.s12 {
+    background: lightskyblue;
+}
+
+.s12 .container {
+    grid-template-columns: 1fr;
+}
+
+.s12 .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s12 ul {
+    font-size: 1.25rem;
 }
