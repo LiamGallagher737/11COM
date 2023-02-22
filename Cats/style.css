@@ -145,8 +145,10 @@ p {
 #cat-arm {
     position: absolute;
     transform: translateY(-50%);
+    transform-origin: center left;
     top: 50%;
-    left: -20%;
+    left: -150px;
     z-index: 1000;
     width: 600px;
+    transition: left 0.5s;
 }
